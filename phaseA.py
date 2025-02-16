@@ -130,7 +130,7 @@ def similar_comments(inputfile,outputfile):
     max_val=0
     max_i,max_j=None,None
     vecs=[]
-    url="https://aiproxy.sanand.workers.dev/openai/v1/embeddings"
+    url="https://api.openai.com/v1/embeddings"
     for i in range(n):
         payload = {"input": comments[i],"model": "text-embedding-3-small"}
         response = requests.post(url, headers=headers, json=payload)
