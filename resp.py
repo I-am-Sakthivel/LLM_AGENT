@@ -2,7 +2,7 @@ import requests
 import json
 import os
 from agent import funtion_tools
-url='https://aiproxy.sanand.workers.dev/openai/v1/chat/completions'
+url='https://api.openai.com/v1/chat/completions'
 token=os.getenv("AIPROXY_TOKEN")
 headers={
     "Authorization":f"Bearer {token}",
