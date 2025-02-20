@@ -13,4 +13,4 @@ This taught me UV, Docker, Podman and most importantly, function calling.
 
 # Errors 
 
-**IF you find any error, pls fork this and solve it**
+**IF you find any error, pls fork this and solve it** :)
